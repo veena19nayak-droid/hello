@@ -4,5 +4,5 @@ try:
 
   print(f"Addition:{a+b}")
   print(f"Subtraction:{a-b}:)
-ecxcept ValueError:
+except ValueError:
   print("Please enter valid number.")
